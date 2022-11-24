@@ -1,0 +1,54 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 728a647db2038ad418a03742ab17abfe, type: 3}
+  m_Name: Stick
+  m_EditorClassIdentifier: 
+  damageCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 2.2616823
+      outSlope: 2.2616823
+      tangentMode: 0
+      weightedMode: 3
+      inWeight: 0.33333334
+      outWeight: 0.5551683
+    - serializedVersion: 3
+      time: 0.99749756
+      value: 5
+      inSlope: 42.9928
+      outSlope: 42.9928
+      tangentMode: 0
+      weightedMode: 3
+      inWeight: 0.04873909
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  healingCurve:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  price: 1
+  type: 1
+  sprite: {fileID: 2009847175332679156, guid: 2e8278b6e588ce94e8a48c5e7f5de9f2, type: 3}
+  color: {r: 0.3584906, g: 0.27165103, b: 0.21475615, a: 1}
+  prefixes:
+  - snapped
+  - frail
+  - 
+  - formidable
+  - the

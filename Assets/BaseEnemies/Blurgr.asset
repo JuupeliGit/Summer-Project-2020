@@ -1,0 +1,93 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1b8c478c04123e1448c00003e89ec181, type: 3}
+  m_Name: Blurgr
+  m_EditorClassIdentifier: 
+  hp:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 6.6255794
+      outSlope: 6.6255794
+      tangentMode: 0
+      weightedMode: 3
+      inWeight: 0.33333334
+      outWeight: 0.38978192
+    - serializedVersion: 3
+      time: 0.9953518
+      value: 20.000174
+      inSlope: 57.98929
+      outSlope: 57.98929
+      tangentMode: 0
+      weightedMode: 3
+      inWeight: 0.23553132
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  atk:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: -0.0018269428
+      value: 1
+      inSlope: 4.077344
+      outSlope: 4.077344
+      tangentMode: 0
+      weightedMode: 3
+      inWeight: 0.33333334
+      outWeight: 0.6063455
+    - serializedVersion: 3
+      time: 0.9843863
+      value: 3.9792023
+      inSlope: 2.6618168
+      outSlope: 2.6618168
+      tangentMode: 0
+      weightedMode: 3
+      inWeight: 0.4138371
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spd:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1.0393066
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    - serializedVersion: 3
+      time: 99.64026
+      value: 9.805122
+      inSlope: 0.2505494
+      outSlope: 0.2505494
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.0499572
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  enemySprite: {fileID: -6373080722913048563, guid: 5c83d66e913f57a41ba3548ecd703d1b,
+    type: 3}
+  color: {r: 0.41509432, g: 0.043137256, b: 0.12156863, a: 1}
+  lootTable: {fileID: 11400000, guid: fbc48445c02c7a24db09555557416219, type: 2}
+  prefixes:
+  - arglug
+  - laburg

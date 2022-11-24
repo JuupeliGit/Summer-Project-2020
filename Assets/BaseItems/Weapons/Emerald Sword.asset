@@ -1,0 +1,54 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 728a647db2038ad418a03742ab17abfe, type: 3}
+  m_Name: Emerald Sword
+  m_EditorClassIdentifier: 
+  damageCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 5
+      inSlope: 6.53931
+      outSlope: 6.53931
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.058816087
+    - serializedVersion: 3
+      time: 1
+      value: 9
+      inSlope: 4.2820764
+      outSlope: 4.2820764
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.10418695
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  healingCurve:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  price: 25
+  type: 1
+  sprite: {fileID: 1996786882652153956, guid: 2e8278b6e588ce94e8a48c5e7f5de9f2, type: 3}
+  color: {r: 0.254539, g: 0.8301887, b: 0.28595877, a: 1}
+  prefixes:
+  - shattered
+  - worn
+  - 
+  - flawless
+  - legendary

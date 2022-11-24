@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 230d33d17e8d11541b354f3d887b55a2, type: 3}
+  m_Name: Dungeon
+  m_EditorClassIdentifier: 
+  tuneName: dungeon
+  volume: 0.3
+  spawnTable: {fileID: 11400000, guid: 2152da26f1fefdf4680f4d7817537c0b, type: 2}
+  themeSprites:
+  - room: {fileID: -6363646469303135118, guid: 2d40c968714d7c74186ac4ca26df9c85, type: 3}
+    doors:
+    - {fileID: -5550102690612969320, guid: 2d40c968714d7c74186ac4ca26df9c85, type: 3}
+    - {fileID: 6252044703174065630, guid: 2d40c968714d7c74186ac4ca26df9c85, type: 3}
+    - {fileID: 7514786015243501228, guid: 2d40c968714d7c74186ac4ca26df9c85, type: 3}
+    - {fileID: 887323912201510164, guid: 2d40c968714d7c74186ac4ca26df9c85, type: 3}
